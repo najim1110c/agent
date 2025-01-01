@@ -12,5 +12,3 @@ def greet_user(name):
     return greeting
 
 
-result = greet_user("Alex")
-print(result) 
