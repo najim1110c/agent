@@ -11,4 +11,7 @@ def greet_user(name):
     greeting = f"Hello, {name}! Hope you're having a great day!"
     return greeting
 
+result = greet_user("Alex")
+print(result) 
+
 
