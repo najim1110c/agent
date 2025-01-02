@@ -57,18 +57,3 @@ def greet_user(name, formal=False, random_greeting=False):
     greeting = f"{base_greeting}, {name}! Hope you're having a great day!"
     return greeting
 
-# Example usage
-if __name__ == "__main__":
-    # Basic greeting
-    print(greet_user("Alex"))
-    
-    # Formal time-based greeting
-    print(greet_user("Alex", formal=True))
-    
-    # Random casual greeting
-    print(greet_user("Alex", random_greeting=True))
-    
-    # Test multiple users
-    names = ["Alex", "Sam", "Jordan"]
-    for name in names:
-        print(greet_user(name, formal=True))
