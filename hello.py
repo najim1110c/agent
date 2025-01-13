@@ -1,5 +1,6 @@
 import random
 from datetime import datetime
+import os
 
 def get_time_based_greeting():
     """
