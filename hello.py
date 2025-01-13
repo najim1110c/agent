@@ -58,6 +58,4 @@ def greet_user(name, formal=False, random_greeting=False):
     return greeting
 
 
-def another():
-    return None
 
