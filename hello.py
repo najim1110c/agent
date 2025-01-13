@@ -57,3 +57,7 @@ def greet_user(name, formal=False, random_greeting=False):
     greeting = f"{base_greeting}, {name}! Hope you're having a great day!"
     return greeting
 
+
+def another():
+    return None
+
